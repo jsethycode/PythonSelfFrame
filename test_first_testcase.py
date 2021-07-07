@@ -6,15 +6,18 @@ def setup_module(module):
 
 
 def teardown_module(module):
-    print("Closing DB Connection")
+    print("Closing DB Connection Ok")
 
 
 def setup_function(function):
-    print("launching browser")
+    print("launching browser Dk")
 
 def teardown_function(function):
     print("Quitting the browser")
-
+def teardown_function(function):
+    print("Quitting the browser")
+def teardown_function(function):
+    print("Quitting the browser")
 
 def test_dologin():
     print("Executing login test")

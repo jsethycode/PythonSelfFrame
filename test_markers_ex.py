@@ -11,6 +11,7 @@ def test_user_reg():
 @pytest.mark.functional
 def test_compose_email():
     print("Executing compose email test")
+    print("Executing compose email test")
 
 @pytest.mark.skip
 def test_skip():
